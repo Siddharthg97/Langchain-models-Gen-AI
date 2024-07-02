@@ -10,6 +10,9 @@ https://www.analyticsvidhya.com/blog/2023/10/a-comprehensive-guide-to-using-chai
 https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/
 https://www.comet.com/site/blog/chaining-the-future-an-in-depth-dive-into-langchain/
 https://github.com/langchain-ai/langchain/discussions/16421
+
+
+
 **Output**
 https://python.plainenglish.io/langchain-in-chains-7-output-parsers-e1a2cdd40cd3
 Jsonparser- https://python.langchain.com/v0.1/docs/modules/model_io/output_parsers/types/json/
