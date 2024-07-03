@@ -4,6 +4,10 @@
 **RAG**
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
 
+
+**Few shot learning**
+
+
 **Sequential Chains**
 
 https://www.analyticsvidhya.com/blog/2023/10/a-comprehensive-guide-to-using-chains-in-langchain/
