@@ -6,6 +6,7 @@ https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-differen
 
 
 **Few shot learning**
+https://python.langchain.com/v0.1/docs/modules/model_io/prompts/few_shot_examples_chat/ <br />
 
 
 **Sequential Chains**
