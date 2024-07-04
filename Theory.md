@@ -1,11 +1,11 @@
 **Prompt Engineering**
 
 
-**RAG**
+**RAG** <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
 
 
-**Few shot learning**
+**Few shot learning** < br />
 https://python.langchain.com/v0.1/docs/modules/model_io/prompts/few_shot_examples_chat/ <br />
 
 
