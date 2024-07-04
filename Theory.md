@@ -1,5 +1,22 @@
 **Prompt Engineering**
+1)Human Prompt 
+There are many ways to create the human prompt
+1) prompt_template_entity = ChatPromptTemplate.from_messages([ ("system", f'''{system_prompt}'''), ("human", "{user_input}"),])
+2) human_prompt = PromptTemplate(
+    template="""
+Examples:
+{examples}
 
+For the following text, extract entities and relations as in the provided example.
+{format_instructions}\nText: {input}""",
+    input_variables=["input"],
+    partial_variables={
+        "format_instructions": parser.get_format_instructions(),
+        "node_labels": None,
+        "rel_types": None,
+        "examples": examples,
+    },
+)
 
 **RAG** <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
