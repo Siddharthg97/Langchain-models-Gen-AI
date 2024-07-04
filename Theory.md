@@ -17,6 +17,7 @@ There are many ways to create the human prompt
                 "examples": examples,
             },
 )
+          human_message_prompt = HumanMessagePromptTemplate(prompt=human_prompt)
 
 **RAG** <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
