@@ -18,6 +18,7 @@ https://github.com/langchain-ai/langchain/discussions/16421
 
 
 
+
 **Output**
 
 https://python.plainenglish.io/langchain-in-chains-7-output-parsers-e1a2cdd40cd3 <br />
@@ -27,4 +28,10 @@ https://python.langchain.com/v0.1/docs/modules/model_io/output_parsers/types/str
 
 **Pydantic output parser** <br />
 https://python.langchain.com/v0.1/docs/modules/model_io/output_parsers/types/pydantic/  <br />
-Takes a user defined Pydantic model and returns data in that format.
+Takes a user defined Pydantic model and returns data in that format.\
+
+
+**Applications**
+1)In NER & Relationship extraction using graph transformers and LLMchain <br />
+https://github.com/Siddharthg97/NER
+
