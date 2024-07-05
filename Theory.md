@@ -32,20 +32,20 @@ There are many ways to create the human prompt
             },
 )
           human_message_prompt = HumanMessagePromptTemplate(prompt=human_prompt) <br />
-https://api.python.langchain.com/en/latest/_modules/langchain_experimental/graph_transformers/llm.html
-**RAG** <br />
+https://api.python.langchain.com/en/latest/_modules/langchain_experimental/graph_transformers/llm.html <br />
+**RAG**  <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
 
 
-**Few shot learning** < br />
+**Few shot learning**  < br />
 https://python.langchain.com/v0.1/docs/modules/model_io/prompts/few_shot_examples_chat/ <br />
 
-**ChatPromptTemplate**
+**ChatPromptTemplate**  <br />
 https://api.python.langchain.com/en/latest/prompts/langchain_core.prompts.chat.ChatPromptTemplate.html#langchain_core.prompts.chat.ChatPromptTemplate
 
 
 
-**Sequential Chains**
+**Sequential Chains**  <br />
 
 https://www.analyticsvidhya.com/blog/2023/10/a-comprehensive-guide-to-using-chains-in-langchain/
 https://www.analyticsvidhya.com/blog/2023/12/implement-huggingface-models-using-langchain/
