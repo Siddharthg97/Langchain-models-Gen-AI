@@ -34,6 +34,25 @@ There are many ways to create the human prompt
 )
           human_message_prompt = HumanMessagePromptTemplate(prompt=human_prompt)    <br />
           Refer this link https://api.python.langchain.com/en/latest/_modules/langchain_experimental/graph_transformers/llm.html <br />
+3) Chat Prompt
+            default_prompt = ChatPromptTemplate.from_messages(
+                [
+                    (
+                        "system",
+                        system_prompt,
+                    ),
+                    (
+                        "human",
+                        (
+                            "Tip: Make sure to answer in the correct format and do "
+                            "not include any explanations. "
+                            "Use the given format to extract information from the "
+                            "following input: {input}"
+                        ),
+                    ),
+                ]
+            )
+
 **RAG**  <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
 
