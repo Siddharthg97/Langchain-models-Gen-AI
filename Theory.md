@@ -63,9 +63,7 @@ https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-differen
 https://python.langchain.com/v0.1/docs/modules/model_io/prompts/few_shot_examples_chat/ <br />
 
 **ChatPromptTemplate**  <br />
-https://api.python.langchain.com/en/latest/prompts/langchain_core.prompts.chat.ChatPromptTemplate.html#langchain_core.prompts.chat.ChatPromptTemplate
-
-<br />
+https://api.python.langchain.com/en/latest/prompts/langchain_core.prompts.chat.ChatPromptTemplate.html#langchain_core.prompts.chat.ChatPromptTemplate <br />
 
 **Sequential Chains**  <br />
 
