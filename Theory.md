@@ -73,7 +73,7 @@ https://python.langchain.com/v0.1/docs/modules/model_io/output_parsers/types/pyd
 Takes a user defined Pydantic model and returns data in that format.\
 
 
-**Applications**
+**Applications** <br/>
 1)In NER & Relationship extraction using graph transformers and LLMchain <br />
 https://github.com/Siddharthg97/NER
 
