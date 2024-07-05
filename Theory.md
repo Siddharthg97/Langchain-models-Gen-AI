@@ -31,7 +31,8 @@ There are many ways to create the human prompt
                 "examples": examples,
             },
 )
-          human_message_prompt = HumanMessagePromptTemplate(prompt=human_prompt) <br />
+          human_message_prompt = HumanMessagePromptTemplate(prompt=human_prompt)    <br />
+          
 https://api.python.langchain.com/en/latest/_modules/langchain_experimental/graph_transformers/llm.html <br />
 **RAG**  <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
@@ -43,7 +44,7 @@ https://python.langchain.com/v0.1/docs/modules/model_io/prompts/few_shot_example
 **ChatPromptTemplate**  <br />
 https://api.python.langchain.com/en/latest/prompts/langchain_core.prompts.chat.ChatPromptTemplate.html#langchain_core.prompts.chat.ChatPromptTemplate
 
-
+<br />
 
 **Sequential Chains**  <br />
 
