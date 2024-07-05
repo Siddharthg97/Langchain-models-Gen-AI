@@ -38,7 +38,8 @@ https://api.python.langchain.com/en/latest/_modules/langchain_experimental/graph
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
 
 
-**Few shot learning**  < br />
+**Few shot learning** 
+<br />
 https://python.langchain.com/v0.1/docs/modules/model_io/prompts/few_shot_examples_chat/ <br />
 
 **ChatPromptTemplate**  <br />
