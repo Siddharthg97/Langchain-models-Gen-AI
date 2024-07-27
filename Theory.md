@@ -94,4 +94,6 @@ Takes a user defined Pydantic model and returns data in that format.\
 **Applications** <br/>
 1)In NER & Relationship extraction using graph transformers and LLMchain <br />
 https://github.com/Siddharthg97/NER
+2)Summarization
+
 
