@@ -97,6 +97,10 @@ https://github.com/Siddharthg97/NER <br />
 2)Summarization <br />
 
 3) Scraping <br />
+refer scraping repository
+4) Functional agents
+https://python.langchain.com/v0.1/docs/modules/agents/how_to/custom_agent/ <br />
+
 
 
 
