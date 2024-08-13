@@ -76,7 +76,8 @@ https://github.com/langchain-ai/langchain/discussions/16421
 
 
 **Output Parser**
-
+The basic implementation to introduce the output parser in langchain is presented here :- <br />
+https://medium.com/@larry_nguyen/langchain-101-lesson-3-output-parser-406591b094d7 <br />
 https://python.plainenglish.io/langchain-in-chains-7-output-parsers-e1a2cdd40cd3 <br />
 
 **1) Json OutputParser**
@@ -95,7 +96,6 @@ Takes a user defined Pydantic model and returns data in that format.\
 1)In NER & Relationship extraction using graph transformers and LLMchain <br />
 https://github.com/Siddharthg97/NER <br />
 2)Summarization <br />
-
 3) Scraping <br />
 refer scraping repository
 4) Functional agents
