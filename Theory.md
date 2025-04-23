@@ -102,5 +102,15 @@ refer scraping repository
 https://python.langchain.com/v0.1/docs/modules/agents/how_to/custom_agent/ <br />
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Memory storage in Langchains**  <br/>
+ConversationBufferMemory
+ConversationBufferWindowMemory
+ConversationTokenBufferMemory
+ConversationSummaryMemory
+
+
+
 
 
