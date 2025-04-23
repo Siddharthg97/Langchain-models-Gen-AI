@@ -99,7 +99,11 @@ https://github.com/Siddharthg97/NER <br />
 3) Scraping <br />
 refer scraping repository
 4) Functional agents
+Agent <br/>
+https://python.langchain.com/docs/concepts/agents/ <br/>
+
 https://python.langchain.com/v0.1/docs/modules/agents/how_to/custom_agent/ <br />
+https://python.langchain.com/v0.1/docs/modules/tools/custom_tools/ <br/>
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -109,6 +113,18 @@ ConversationBufferMemory
 ConversationBufferWindowMemory
 ConversationTokenBufferMemory
 ConversationSummaryMemory
+
+
+
+**Langraph**
+LangGraph is an extension of LangChain specifically aimed at creating highly controllable and customizable agents. We recommend that you use LangGraph for building agents. <br/>
+
+
+https://langchain-ai.github.io/langgraph/ <br/>
+
+
+**Multi-modal RAG**
+https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_and_multi_modal_RAG.ipynb?ref=blog.langchain.dev <br/>
 
 
 
