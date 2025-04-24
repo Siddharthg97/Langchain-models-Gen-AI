@@ -99,11 +99,6 @@ https://github.com/Siddharthg97/NER <br />
 3) Scraping <br />
 refer scraping repository
 4) Functional agents
-Agent <br/>
-https://python.langchain.com/docs/concepts/agents/ <br/>
-
-https://python.langchain.com/v0.1/docs/modules/agents/how_to/custom_agent/ <br />
-https://python.langchain.com/v0.1/docs/modules/tools/custom_tools/ <br/>
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -115,10 +110,26 @@ ConversationTokenBufferMemory
 ConversationSummaryMemory
 
 
+**Langchain Agent** <br/>
+Mostly we use React agents ( Reasoning + Analysis ).React phenomena works in manner, based on the input query to LLm  reasoning happens and accordingly actions is decided along with the tool for it.Now these observations are fed to LLM to generate appropriate output.Now to create React agent we need to have prompt composed of Thought,Action,Pause,Observation,Output. Hence we create prompt that is composed of sections and initialize  agent using this prompt and then pass the query. We get output from agent as the action and the thought in messages. Now based on action tool is decided (def as function) and output of tool again to LLM as observations and finally generate output. This iterative process is better orchestrated with Langraph. refer langraph section <br/>
+refer React Agents.ipynb
+https://python.langchain.com/docs/concepts/agents/ <br/>
+
+https://python.langchain.com/v0.1/docs/modules/agents/how_to/custom_agent/ <br />
+https://python.langchain.com/v0.1/docs/modules/tools/custom_tools/ <br/>
 
 **Langraph**
-LangGraph is an extension of LangChain specifically aimed at creating highly controllable and customizable agents. We recommend that you use LangGraph for building agents. <br/>
+LangGraph is an extension of LangChain specifically that support graphs, aimed at creating highly controllable and customizable agents. We recommend that you use LangGraph for building agents. Single and multi-agent flows are desrcibed and represented as graph. Allows for extremely  controlled flows, build it persistance for human-in-loop workflows. <br/>
+We can create 
+1) cyclic graph
+2) persistance
+3) human-in-loop
 
+Components of graph 
+node,edges and conditional edges
+There exist agent state accessible for all parts of graph
+
+ 
 
 https://langchain-ai.github.io/langgraph/ <br/>
 
@@ -131,6 +142,10 @@ How to extract multi modal contemt from DOC <br/>
 https://thetredenceacademy.talentlms.com/unit/view/id:18064
 How to extract multi modal contemt from PPT <br/>
 https://python-pptx.readthedocs.io/en/latest/index.html#api-documentation <br/>
+
+
+
+**How d **
 
 
 
