@@ -125,6 +125,15 @@ https://langchain-ai.github.io/langgraph/ <br/>
 
 **Multi-modal RAG**
 https://github.com/langchain-ai/langchain/blob/master/cookbook/Semi_structured_and_multi_modal_RAG.ipynb?ref=blog.langchain.dev <br/>
+How to extract multi modal contemt from PDF - pyMuPDF4LLM API <br/>
+https://thetredenceacademy.talentlms.com/unit/view/id:18063
+How to extract multi modal contemt from DOC <br/>
+https://thetredenceacademy.talentlms.com/unit/view/id:18064
+How to extract multi modal contemt from PPT <br/>
+https://python-pptx.readthedocs.io/en/latest/index.html#api-documentation <br/>
+
+
+
 
 
 
