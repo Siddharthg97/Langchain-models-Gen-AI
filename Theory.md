@@ -145,8 +145,44 @@ https://python-pptx.readthedocs.io/en/latest/index.html#api-documentation <br/>
 
 
 
-**How d **
+**How to handle model hallucinations **
+Use Retrieval-Augmented Generation (RAG)
+Combine LLMs with external knowledge bases or search APIs.
 
+Example tools: LangChain, Haystack.
+
+The model pulls context from a trusted source at runtime to ground its response.
+
+✅ Output is “grounded” in real data.
+
+B. Fine-tuning or Instruction Tuning
+Fine-tune the model on domain-specific, verified data.
+
+Use instruction tuning to teach the model how to respond cautiously.
+
+C. Prompt Engineering
+Use clear, constrained prompts to reduce hallucination.
+
+Add guardrails:
+
+text
+Copy
+Edit
+If you don’t know the answer, say “I don’t know.”
+Only respond based on the context provided below:
+Use few-shot examples that demonstrate the desired behavior.
+
+D. Model Choice
+Use models known for higher factual accuracy (e.g., GPT-4-turbo).
+
+Avoid older or smaller models for tasks requiring high reliability.
+
+🧪 3. Post-processing / Validation
+Fact-checking APIs: Run outputs through fact-checking pipelines.
+
+Confidence scoring: Some setups can provide confidence in the output (RAG models with passage scores).
+
+Structured output formats: Use formats like JSON to constrain randomness.
 
 
 
