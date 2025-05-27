@@ -1,3 +1,9 @@
+**Gen AI**
+Text : tytransformer models
+image: Generative Adversial Networks, wav2vec, diffusion models, VAE ( Variational Encoders) or CNNs.
+
+
+
 **Prompt Engineering** <br />
 
 1)systemprompt = 
