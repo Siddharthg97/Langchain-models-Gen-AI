@@ -1,6 +1,8 @@
-**Gen AI**
-Text : tytransformer models
-image: Generative Adversial Networks, wav2vec, diffusion models, VAE ( Variational Encoders) or CNNs.
+**Gen AI** <br />
+Text : transformer models
+image: Generative Adversial Networks, wav2vec, diffusion models, VAE ( Variational Encoders) or CNNs. <br />
+audio: GANs for audio, Deep generative models, RNN
+video: GANs, CNN
 
 
 
