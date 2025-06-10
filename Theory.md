@@ -135,7 +135,11 @@ We can create
 
 Components of graph 
 node,edges and conditional edges
-There exist agent state accessible for all parts of graph
+There exist agent state accessible for all parts of graph.It is local to ;angraph and the simplest way to define agent state is : <br/>
+class AgentState(TypedDict): <br/>
+    messages: Annotated[list[AnyMessage], operator.add] <br/>
+Now here we have message as variable which is anymessage (a langchain type), on that we have operator add that means to append as list of messages as we move head in graph.
+
 
  
 
