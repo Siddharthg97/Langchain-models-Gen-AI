@@ -155,8 +155,18 @@ https://thetredenceacademy.talentlms.com/unit/view/id:18064
 How to extract multi modal contemt from PPT <br/>
 https://python-pptx.readthedocs.io/en/latest/index.html#api-documentation <br/>
 
+**Statistical metrics**
+Staistical Metrics - BLEU, ROUGHE, METEOR
+PARENT - Measures using both target & source text 
+BVSS - Bag of vectors sentence similarity
 
+**Model-based metrics**
+1) IE - evaluation based on info extratced
+2) QA - measures similarity b/w questions answered
+3) Faithfulness - an unsupported info in the output
+4) LM based calcultes ratio of hallucinated tokens & total tokens
 
+   
 **How to handle model hallucinations **
 Use Retrieval-Augmented Generation (RAG)
 Combine LLMs with external knowledge bases or search APIs.
