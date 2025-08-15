@@ -1,0 +1,15 @@
+**Please go throught scripta and it's description**
+- `2_Langchain_HF_LLMS_Prompt_v2.ipynb` – Updated version of prompt workflows combining LangChain with Hugging Face LLMs.
+- `Langchain_HF_LLMS_Prompt.ipynb` – Initial version exploring prompt engineering with LangChain and Hugging Face models.
+- `Agents.ipynb` – Fundamental examples of agent constructs using LangChain.
+- `Agent_AI_optimization.ipynb` – Techniques to optimize agent-driven workflows via AI.
+- `Agents_via_Langraph.ipynb` – Using Langraph to construct and visualize LangChain agents.
+- `RAG_&_Material_Classification_modeL.ipynb` – Demonstrates RAG for classification workflows.
+- `RAG_QA_LLM_project.ipynb` – QA-oriented RAG pipeline toolkit.
+- `RAG_Summary_TH_THNM.ipynb` – Summarization use-case using RAG with thematic support.
+- `React Agent.ipynb` – Shows an agent using React-style reactive patterns or UI integrations.
+- `LLM_summarization_N0_bkp.py` – Python script for LLM-based summarization (backup).
+- `news_language_extraction_bkp.py` – Script to extract language features from news content (backup).
+- `Input_LLM_summarization.xlsx` – Sample input data for summarization tasks.
+- `Theory.md` – Conceptual notes and theoretical explanations around LangChain and generative AI.
+- `Token.md` – Notes focused on prompt tokens, tokenization, and management.
