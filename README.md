@@ -1,4 +1,4 @@
-**Please go throught scripta and it's description**
+**Please go throught scripts and it's description**
 - `2_Langchain_HF_LLMS_Prompt_v2.ipynb` – Updated version of prompt workflows combining LangChain with Hugging Face LLMs.
 - `Langchain_HF_LLMS_Prompt.ipynb` – Initial version exploring prompt engineering with LangChain and Hugging Face models.
 - `Agents.ipynb` – Fundamental examples of agent constructs using LangChain.
