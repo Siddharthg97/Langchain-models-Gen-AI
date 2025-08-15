@@ -1,10 +1,9 @@
 **Please go throught scripts and it's description**
-- `2_Langchain_HF_LLMS_Prompt_v2.ipynb` – Updated version of prompt workflows combining LangChain with Hugging Face LLMs.
-- `Langchain_HF_LLMS_Prompt.ipynb` – Initial version exploring prompt engineering with LangChain and Hugging Face models.
+- `1_Langchain_HF_LLMS_Prompt_v2.ipynb,2_Langchain_HF_LLMS_Prompt_v2.ipynb` – For NER & relationship extraction using Langchains & LLMGraphTransformer .
 - `Agents.ipynb` – Fundamental examples of agent constructs using LangChain.
-- `Agent_AI_optimization.ipynb` – Techniques to optimize agent-driven workflows via AI.
+- `Agent_AI_optimization.ipynb` – Creation of React AI agent to automate the process of automation
 - `Agents_via_Langraph.ipynb` – Using Langraph to construct and visualize LangChain agents.
-- `RAG_&_Material_Classification_modeL.ipynb` – Demonstrates RAG for classification workflows.
+- `RAG_&_Material_Classification_modeL.ipynb` – True Hit classification using Encoder only based sequence classifiaction and RAG based Chat bot for Q/A.
 - `RAG_QA_LLM_project.ipynb` – QA-oriented RAG pipeline toolkit.
 - `RAG_Summary_TH_THNM.ipynb` – Summarization use-case using RAG with thematic support.
 - `React Agent.ipynb` – Shows an agent using React-style reactive patterns or UI integrations.
