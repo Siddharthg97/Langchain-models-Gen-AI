@@ -119,6 +119,7 @@ ConversationSummaryMemory
 
 
 **Langchain Agent** <br/>
+A LangChain agent is like an LLM-powered decision-maker that allows llm to decide which tools to use and take actions in structured manner to solve a task.
 Mostly we use React agents ( Reasoning + Analysis ).React phenomena works in manner, based on the input query to LLm <br/> reasoning happens and accordingly actions is decided along with the tool for it.Now these observations are fed to LLM to <br/> generate appropriate output.Now to create React agent we need to have prompt composed of <br/> Thought,Action,Pause,Observation,Output. Hence we create prompt that is composed of sections and initialize  agent using <br/> this prompt and then pass the query. We get output from agent as the action and the thought in messages. Now based on <br/> action tool is decided (def as function) and output of tool again to LLM as observations and finally generate output. <br/> This iterative process is better orchestrated with Langraph. refer langraph section <br/>
 refer React Agents.ipynb
 https://python.langchain.com/docs/concepts/agents/ <br/>
