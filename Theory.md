@@ -62,6 +62,58 @@ Human prompt contains some instructions / tip or important note and input variab
                 )
 
          ii) prompt_template_entity = ChatPromptTemplate.from_messages([ ("system", f'''{system_prompt}'''), ("human", "{user_input}")])
+
+
+        iii) prompt = PromptTemplate(
+                                    template = """You are a classifier. Given a message, respond with a list of relevant labels.
+                                                - Use **"idp"** for IDPs
+                                                - Use **"smart"** for SMART goals or goals
+                                                - Use **"performance"** for performance (PDR)
+                                                - Use **"progress"** for course progression
+                                                - Use **"hours"** for learning hours
+                                                Only include labels that apply to the message. Return them as a JSON list under the `classification` key.
+                                            
+                                            Messages: "{message}
+
+                                            {format_instructions}
+                                        """,
+                                        input_variables=["message"],
+                                        partial_variables={"format_instructions": response_parser.get_format_instructions()}
+                                    )
+            
+        formatted_prompt = prompt.format_prompt(message=state['history_plus_latest_message'],
+                                                    )
+        
+        llm_response = llm(formatted_prompt.to_messages())
+        
+selected_llm=llm_response.response_metadata['model_name']
+iv) prompt=ChatPromptTemplate.from_template("""
+        - Respond with **"balance"** if user asks about their leave balance/remote working days balance. i.e. how many days of leaves/remote working days they have used and             how many left
+        - Response with **"transaction"** if user asks about their leave transactions. i.e. how and when their leaves were used. e.g. sick leave on 10th March
+        - Respond with both **"balance"** and **"transaction"**  if user asks for both
+        Messages: "{message}"
+        """)
+    pr=prompt.format_prompt(message="")
+    llm(pr.to_messages()
+iv) chain = ChatPromptTemplate.from_template("""
+        - Respond with **"balance"** if user asks about their leave balance/remote working days balance. i.e. how many days of leaves/remote working days they have used and             how many left
+        - Response with **"transaction"** if user asks about their leave transactions. i.e. how and when their leaves were used. e.g. sick leave on 10th March
+        - Respond with both **"balance"** and **"transaction"**  if user asks for both
+        Messages: "{message}"
+        """) | llm
+
+        users = check_nminus1(state)["employees"]
+        log_execution(state['thread_id'], "Node", "get_leave_details", f"[The return value of user from check_nminus1 is : \n{users}]")
+        
+
+        response = chain.invoke({"message": state['history_plus_latest_message']})
+        
+        selected_llm=response.response_metadata['model_name']
+
+ prompt = ChatPromptTemplate.from_messages([
+            ("system", rectify_hallucination_toxicity_prompt),
+        ])
+
 **RAG**  <br />
 https://dheerajinampudi.medium.com/retrieval-chains-enhancing-rags-with-different-retrieval-techniques-c6071f1a0ff3
 
