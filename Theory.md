@@ -62,6 +62,7 @@ Human prompt contains some instructions / tip or important note and input variab
                 )
 
          ii) prompt_template_entity = ChatPromptTemplate.from_messages([ ("system", f'''{system_prompt}'''), ("human", "{user_input}")])
+        
 
 
         iii) prompt = PromptTemplate(
