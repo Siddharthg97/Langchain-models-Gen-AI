@@ -187,7 +187,34 @@ We can create
 2) persistance
 3) human-in-loop
 
-Components of graph 
+LangGraph supports persisted state using built-in storage so that long-running or multi-session agents can pause/resume.
+
+How persistence works
+
+Each graph run is tracked through a checkpoints or threads directory.State for each step is stored (usually as JSON) including:messages,node outputs,metadata,partial results
+You can resume execution from any checkpoint.
+
+LangGraph natively supports human approval or intervention within the graph flow.
+
+How HITL Works in LangGraph
+
+A node can return:
+
+{"await_user_input": True}
+
+This causes LangGraph to pause execution and waits for external input.
+
+You can resume by sending the user’s message back to the graph using an API call.
+
+Typical HITL patterns:
+
+“Approval required” step
+“Provide missing details” workflow
+Human validation before publishing
+Human correction loop (like review/edit cycles)
+
+
+**Components of graph** 
 node,edges and conditional edges
 There exist agent state accessible for all parts of graph.It is local to ;angraph and the simplest way to define agent state is : <br/>
 class AgentState(TypedDict): <br/>
