@@ -289,7 +289,7 @@ Structured output formats: Use formats like JSON to constrain randomness.
 
 
 
-**Multi-Agent system**
+***Multi-Agent system***
 Creating a multi-agent system (MAS) for AI workflows depends on your use case, scalability needs, budget, and technical preference.
 There is no single required framework — CrewAI, LangGraph, Microsoft Autogen, and custom agent orchestration are all valid.
 
@@ -389,7 +389,7 @@ Research / experiments	Autogen or CrewAI
 High control + enterprise	Custom + LangGraph
 
 
-**ANN**
+***ANN***
 Approximate Nearest Neighbors (ANN) refers to an algorithmic approach used to quickly find items that are similar (closest) to a given item, without having to compute the exact distance to every item in the dataset.
 
 It is widely used in:
@@ -405,7 +405,7 @@ Image similarity
 LLM & RAG systems
 
 
-**cosmso db**
+***cosmso db***
 What is Azure Cosmos DB?
 Azure Cosmos DB is often used together with Azure AI Search because it provides the storage, indexing, and querying backend for applications that require:
 
@@ -441,7 +441,7 @@ Feature	Explanation
 - Gremlin (Graph)
 - Table API (Key-Value)
 - Cassandra API
-**containers in cosmos db**
+***containers in cosmos db***
 Excellent question — understanding containers in Azure (especially in Cosmos DB and Blob Storage) is critical for designing good cloud data architecture.
 
 Let’s unpack both meanings, since “container” can refer to different things depending on the Azure service you’re working with
@@ -475,7 +475,7 @@ Each container holds multiple items (documents) — typically JSON objects.
 
 
 
-**Azure AI search**
+***Azure AI search***
 🧩 What Azure AI Search Is
 Azure AI Search is a search-as-a-service offering from Microsoft Azure.
 It allows you to index, enrich, and search through large amounts of structured or unstructured data — like PDFs, Word docs, databases, websites, etc.
@@ -565,7 +565,7 @@ Type	Description	Example Use
 📊 Metadata Indexing	For filters, sorts, and facets	Filter by department, price, or date
 🔍 Vector Indexing	For semantic similarity search	“Find documents similar to this one”
 
-**Azure AI search**
+***Azure AI search***
 
 Azure AI Search (formerly Azure Cognitive Search) performs three major types of search, depending on how the index is configured:
 
@@ -669,7 +669,7 @@ Full-Text Search	Find keyword / phrase matches	Inverted Index
 Vector Search	Semantic similarity search	Vector Index (HNSW, IVF, PQ)
 Hybrid Search	Combines both for best ranking	Blend of both
 
-**ANN**
+***ANN***
 What Happens in Approximate Nearest Neighbors (ANN) Search?
 
 ANN search finds the vectors closest to a query vector, but NOT by scanning all vectors (which would be slow).
